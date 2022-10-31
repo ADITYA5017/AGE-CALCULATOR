@@ -1,0 +1,8 @@
+
+# creating and placing a button to calculate a show age on 
+# clicking on this button
+Button(text="Calculate age", command=calculateAge).grid(row=5, column=1, pady=10)
+
+# mainloop() is an infinite loop used to run the application when 
+# it's in ready state
+root.mainloop()
